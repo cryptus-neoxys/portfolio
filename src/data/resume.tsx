@@ -8,9 +8,9 @@ export const DATA = {
   location: "India",
   locationLink: "#",
   description:
-    "Software Engineer generalist, building systems that empower people and teams. Exploring AI, Cryptography and Distributed Systems.",
+    "Software Engineer generalist, building systems that empower people and teams. Exploring AI, Cryptography and fundamentally Distributed Systems.",
   summary:
-    "Software Engineer with expertise in Golang, Rust, Python, Kubernetes, and distributed systems. Previously at WildCard, IntelXLabs, NodeOps, Zomato, and Airbnb. Built scalable backend systems, analytics platforms, and trading infrastructure. Passionate about AI, blockchain, and creating systems that scale to millions of users.",
+    "Software Engineer with expertise in Golang, Rust, Postgres, ClickHouse, Kafka, AWS, and distributed systems. Previously at WildCard, IntelXLabs, NodeOps, Zomato, and Airbnb. Built scalable backend systems, analytics platforms, and trading infrastructure. Passionate about AI, blockchain, and creating systems that empower people and teams.",
   avatarUrl: "/me.png",
   skills: [
     "Golang",
@@ -28,7 +28,7 @@ export const DATA = {
     "TypeScript",
     "Java",
     "React",
-    "Next.js"
+    "Next.js",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -147,8 +147,6 @@ export const DATA = {
       end: "May 2023",
     },
   ],
-  projects: [
-  ],
-  hackathons: [
-  ],
+  projects: [],
+  hackathons: [],
 } as const;
